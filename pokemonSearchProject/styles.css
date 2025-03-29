@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Georgia, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://img.odcdn.com.br/wp-content/uploads/2019/05/20190507084117.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0 auto;
+  padding: 8px 0;
+  text-align: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+table td, table th {
+  border: 1px solid #000;
+  padding: 5px 25px;
+  background: #e74c3c;
+  text-align: center;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+#search-button {
+  background : #f1948a;
+  padding: 8px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+#card {
+  background: rgb(
+ 241, 148, 138, 0.7);
+ padding: 20px 35px;
+ border-radius: 10px;
+ border: 2px solid #000;
+}
+
+#search-input {
+  padding: 8px;
+  border-radius: 10px;
+  border: 1px solid #000;
+  font-size: 0.8rem;
+  font-family: sans-serif;
+}
+
+#input-box {
+  display: flex;
+  justify-content: space-between
+}
+
+#types {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 5px 0;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#types span {
+  border: 1px solid #000;
+  padding: 3px 8px;
+  border-radius: 10px;
+}
+
+.size {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding-top: 7px;
+  justify-content: space-between;
+  margin-left: 30%;
+  font-family: sans-serif;
+}
+
+.name-and-id {
+  display: flex;
+  padding-top: 7px;
+  justify-content: space-between;
+  font-family: sans-serif;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  padding: 7px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  background: rgb(255, 255, 255, 0.75);
+  border-radius: 10px;
+  margin-top: 5px
+}
+
+.eletric {
+  background: #5dade2;
+}
+
+.rock {
+  background: #707b7c
+}
+
+.ground {
+  background: #af601a;
+}
+
+.grass {
+  background: #27ae60;
+}
+
+.poison {
+  background: #a584ce
+}
+
+.fire {
+  background: #d35400;
+}
+
+.flying {
+  background: #aaeaea
+}
+
+.water {
+  background: #2e86c1;
+}
+
+.bug {
+  background: #a87a46;
+} 
+.normal {
+  background: #E5D3BF;
+}
+
+.electric {
+  background: #f4d03f
+}
