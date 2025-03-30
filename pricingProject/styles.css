@@ -9,7 +9,7 @@
   background: #fff;
   padding: 10px 20px;
   box-shadow: 5px 5px 10px #000;
-  min-width: 340px;
+  min-width: 350px;
 }
 
 a {
@@ -47,26 +47,26 @@ a {
 }
 
 #plan-free {
-  max-width: 300px;
+  max-width: 340px;
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
-  margin: 15px 0;
+  margin: 15px auto;
   border-radius: 5px;
 }
 
 #plan-pro {
-  max-width: 300px;
+  max-width: 340px;
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
-  margin: 15px 0;
+  margin: 15px auto;
   border-radius: 5px;
 }
 
 #plan-enterprise {
-  max-width: 300px;
+  max-width: 340px;
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
-  margin: 15px 0;
+  margin: 15px auto;
   border-radius: 5px;
 }
 
@@ -191,6 +191,22 @@ a {
 @media(max-width: 900px) {
   #plans-options {
     flex-direction: column;
-    width: 300px;
+    max-width: 450px;
+    width: 90%;
+  }
+
+  #plan-free {
+    width: 95%;
+    min-width: 340px;
+  }
+
+  #plan-pro {
+    width: 95%;
+    min-width: 340px;
+  }
+
+  #plan-enterprise {
+    width: 95%;
+    min-width: 340px;
   }
 }
