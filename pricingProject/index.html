@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-  <nav class='navbar-nav navbar-text'>
+  <nav class='navbar-nav navbar-text w-100'>
     <div id='nav-options'class="d-flex">
       <div id="company-name-box" class='py-1 text-center'>
         <a href='#' id='company-name' class='px-2'>Company name</a>
@@ -22,15 +22,15 @@
       </div>
     </div>
   </nav>
-  <section id="site-content" class='mx-auto'>
-    <div id='cabecalho' class='text-center'>
-      <h1 id='pricing' class='text-center pt-5'>Pricing</h1>
-      <p id='principal-text' class="py-3 mx-auto">Quickly build an effective pricing table for your potential customers with this
+  <section id="site-content" class='mx-auto w-auto'>
+    <div id='cabecalho' class='text-center w-auto h-auto'>
+      <h1 id='pricing' class='text-center pt-5 w-auto'>Pricing</h1>
+      <p id='principal-text' class="py-3 mx-auto w-auto h-auto">Quickly build an effective pricing table for your potential customers with this
       Bootstrap example. It's built with default Bootstrap components and utilities
       with little customization.</p>
     </div>
-    <div id="plans-options" class='d-flex mx-auto'>
-      <div id="plan-free" class='text-center py-3 '>
+    <div id="plans-options" class='d-flex mx-auto h-100'>
+      <div id="plan-free" class='text-center py-3 h-auto'>
         <h3 class='plan mb-5'>Free</h3>
         <div class="price-flex d-flex"><h1 class="price">$0</h1><p class="month">/ mo</p></div>
         <p class="mb-0 mt-4">10 users included</p>
@@ -39,7 +39,7 @@
         <p class="mb-4 mt-0">Help center access</p>
         <button id='btn-free' type="button" class="btn btn-outline-primary">Sign up for free</button>
       </div>
-      <div id="plan-pro" class='text-center py-3'>
+      <div id="plan-pro" class='text-center py-3 h-auto'>
         <h3 class="plan mb-5">Pro</h3>
         <div class="price-flex d-flex"><h1 class="price">$15</h1><p class="month">/ mo</p></div>
         <p class="mb-0 mt-4">20 users included</p>
@@ -48,7 +48,7 @@
         <p class="mb-4 mt-0">Help center access</p>
         <button id='btn-pro' type='btn' class="btn btn-primary">Get started</button>
       </div>
-      <div id="plan-enterprise" class='text-center py-3'>
+      <div id="plan-enterprise" class='text-center py-3 h-auto'>
         <h3 class="plan mb-5">Enterprise</h3>
         <div class="price-flex d-flex mx-auto"><h1 class='price'>$29</h1><p class="month">/ mo</p></div>
         <p class="mb-0 mt-4">30 users included</p>
@@ -59,15 +59,15 @@
       </div>
     </div>
   </section>
-  <footer id='site-footer' class='mx-auto px-0'>
+  <footer id='site-footer' class='mx-auto px-0 w-100'>
     <div id='footer-content' class='d-flex mx-3'>
       
-      <div id='first-block' class="d-flex">
+      <div id='first-block' class="d-flex flex-column">
         <img src="imgs/bootstrap-logo.png" alt="bootstrap logo" width="30px">
         <p>© 2017-2018</p>
       </div>
 
-      <div id='second-block' class='d-flex mx-auto'>
+      <div id='second-block' class='d-flex flex-column mx-auto'>
         <h6>Features</h6>
         <p class="mb-0">Cool stuff</p>
         <p class="mb-0">Random feature</p>
@@ -77,7 +77,7 @@
         <p class="mb-0">Last time</p>
       </div>
 
-      <div id='third-block' class="d-flex mx-auto">
+      <div id='third-block' class="d-flex flex-column mx-auto">
         <h6>Resources</h6>
         <p class="mb-0">Resource</p>
         <p class="mb-0">Resource name</p>
@@ -85,7 +85,7 @@
         <p class="mb-0">Final resource</p>
       </div>
 
-      <div id='fourth-block' class='d-flex mx-auto'>
+      <div id='fourth-block' class='d-flex flex-column mx-auto'>
         <h6>About</h6>
         <p class="mb-0">Team</p>
         <p class="mb-0">Locations</p>
