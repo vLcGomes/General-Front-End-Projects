@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+.navbar-nav {
+  background: #fff;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-options {
+  justify-content: space-between;
+}
+
+#company-name {
+  font-size: 20px;
+}
+
+#principal-text {
+  width: 560px;
+}
+
+#pricing {
+  width: 100%;
+}
+
+#site-content {
+  width: 1000px;
+  max-width: 1000px;
+}
+
+#cabecalho {
+  min-width: 1000px;
+  width: 100%;
+}
+
+#plans-options {
+  justify-content: space-around;
+  height: auto;
+}
+
+#plan-free {
+  max-width: 300px;
+  width: 300px;
+  box-shadow: 1px 5px 10px 1px #000;
+  height: auto;
+  border-radius: 5px;
+}
+
+#plan-pro {
+  max-width: 300px;
+  width: 300px;
+  box-shadow: 1px 5px 10px 1px #000;
+  height: auto;
+  border-radius: 5px;
+}
+
+#plan-enterprise {
+  max-width: 300px;
+  width: 300px;
+  box-shadow: 1px 5px 10px 1px #000;
+  height: auto;
+  border-radius: 5px;
+}
+
+#btn-free {
+  width: 90%;
+  font-size: 18px;
+}
+
+#btn-pro {
+  width: 90%;
+  font-size: 18px;
+}
+
+#btn-enterprise {
+  width: 90%;
+  font-size: 18px;
+}
+
+#site-footer {
+  width: 1000px;
+  max-width: 1000px;
+  flex-direction: row;
+  padding: 3.5em;
+}
+
+#footer-content {
+  justify-content: flex-start;
+  width: 100%;
+}
+
+#first-block {
+  flex-direction: column;
+  width: 25%
+}
+
+#second-block {
+  flex-direction: column;
+  width: 25%
+}
+
+#third-block {
+  flex-direction: column;
+  width: 25%
+}
+
+#fourth-block {
+  flex-direction: column;
+  width: 25%
+}
+
+.price {
+  padding: 0 5px;
+  font-size: 40px;
+}
+
+.month {
+  padding: 0 5px;
+  color: grey;
+  font-size: 28px;
+}
+
+.price-flex {
+  justify-content: center;
+}
+
+.plan {
+  font-size: 32px;
+}
