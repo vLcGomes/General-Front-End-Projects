@@ -1,13 +1,16 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box
+  box-sizing: border-box;
+
 }
 
 .navbar-nav {
   background: #fff;
   padding: 10px 20px;
   box-shadow: 5px 5px 10px #000;
+  width: 100%;
+  min-width: 340px;
 }
 
 a {
@@ -23,26 +26,33 @@ a {
 }
 
 #principal-text {
-  width: 560px;
+  max-width: 560px;
+  width: auto;
+  height: auto;
 }
 
 #pricing {
-  width: 100%;
+  width: auto;
+  font-size: 40px;
 }
 
 #site-content {
-  width: 1000px;
+  width: auto;
   max-width: 1000px;
+  min-width: 330px;
 }
 
 #cabecalho {
-  min-width: 1000px;
-  width: 100%;
+  max-width: 1000px;
+  width: auto;
+  height: auto;
 }
 
 #plans-options {
   justify-content: space-around;
-  height: auto;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
 }
 
 #plan-free {
@@ -50,6 +60,7 @@ a {
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
   height: auto;
+  margin: 15px 0;
   border-radius: 5px;
 }
 
@@ -58,6 +69,7 @@ a {
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
   height: auto;
+  margin: 15px 0;
   border-radius: 5px;
 }
 
@@ -66,6 +78,7 @@ a {
   width: 300px;
   box-shadow: 1px 5px 10px 1px #000;
   height: auto;
+  margin: 15px 0;
   border-radius: 5px;
 }
 
@@ -85,8 +98,9 @@ a {
 }
 
 #site-footer {
-  width: 1000px;
+  width: 100%;
   max-width: 1000px;
+  min-width: 750px;
   flex-direction: row;
   padding: 3.5em;
 }
@@ -134,3 +148,34 @@ a {
 .plan {
   font-size: 32px;
 }
+
+@media(max-width: 700px) {
+  #nav-options {
+    flex-direction: column;
+  }
+
+  #sign-up {
+    margin-top: 10px;
+  }
+
+  #site-options {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+@media(max-width: 900px) {
+  #plans-options {
+    flex-direction: column;
+    width: 300px;
+    
+  }
+}
+
+/* @media(max-width: 560px) {
+  #principal-text {
+    margin: 0 !important;
+  }
+} */
