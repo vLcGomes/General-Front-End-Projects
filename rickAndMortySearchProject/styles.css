@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#all-content {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://wallpapers.com/images/hd/rick-and-morty-pictures-1uc0cwv5uddx5qve.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#card {
+  width: 500px;
+  min-width: 400px;
+  height: auto;
+  min-height: 550px;
+  background: #fff;
+  align-self: center;
+  border-radius: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+#personagem-img {
+  display: block;
+  max-width: 470px;
+  width: 470px;
+  margin: 0 auto;
+  border-radius: 15px;
+  max-height: 300px;
+  margin: 13px auto;
+  border: 3px solid greenyellow;
+}
+
+#input-character {
+  max-width: 70%;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+#search {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#search:hover {
+  background: greenyellow;
+  border-color: lightslategrey;
+}
+
+#searchField {
+  background-image: url('https://m.media-amazon.com/images/I/71qQQw9pgkL.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom: 5px solid greenyellow;
+  flex-direction: column;
+  height: 140px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#head-items {
+  height: 90px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#name-status {
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 12px;
+  height: auto;
+}
+
+#id-specie-origin {
+  justify-content: space-between;
+  width: 94%;
+  margin: 0 12px;
+  height: auto;
+}
+
+#specie-origin {
+  justify-content: space-between;
+  width: auto;
+  flex-direction: row;
+}
+
+#name {
+  background: rgb(173, 255, 47, .5);
+  border-radius: 15px;
+  height: 100%;
+  border: 2px solid #000;
+}
+
+#character-id {
+  background: rgb(173, 255, 47, .5);
+  border-radius: 15px;
+  border: 2px solid #000;
+}
+
+#status {
+  height: auto;
+  width: auto;
+  background: rgb(173, 255, 47, .5);
+  border-radius: 15px;
+  border: 2px solid #000;
+}
+
+#specie {
+  background: rgb(173, 255, 47, .5);
+  border-radius: 15px;
+  margin-right: 4px;
+  border: 2px solid #000;
+}
+
+#origin {
+  background: rgb(173, 255, 47, .5);
+  border-radius: 15px;
+  margin-left: 4px;
+  border: 2px solid #000;
+}
+
+#ep-grid {
+  max-width: 480px;
+  column-gap: 1px;
+  height: auto;
+}
+
+.row {
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.col {
+  background: rgb(173, 255, 47, .5);
+  border-radius: 5px;
+  border: 2px solid #000;
+  font-weight: bold;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#ep-title {
+  display: 'block';
+  width: 500px;
+  font-weight: bold
+}
