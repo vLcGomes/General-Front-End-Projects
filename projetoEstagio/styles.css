@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-bar {
+  background: #fff;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#icon-logo {
+  margin: auto 10px;
+}
+
+#logo-text {
+  font-size: 28px;
+  color: red;
+  padding: 5px 10px;
+  font-family: sans-serif;
+}
+
+#search-nav-icon {
+  margin: 15px;
+}
+
+#first-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  width: 100%;
+  min-width: 100%;
+  background-image: url('./imagens/london.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+#head-selection {
+  display: flex;
+  height: auto;
+  width: 100%;
+  margin: auto auto;
+  justify-content: space-around;
+}
+
+#flight-text {
+  color: #fff;
+  font-size: 20px;
+  max-width: auto;
+  padding: auto 5px;
+  margin: auto 0;
+  font-weight: normal;
+}
+
+#hotel-text {
+  color: #fff;
+  font-size: 20px;
+  max-width: 33%;
+  padding: auto 5px;
+  margin: auto 0;
+  font-weight: normal;
+}
+
+#rental-text {
+  color: #fff;
+  font-size: 20px;
+  max-width: 33%;
+  padding: auto 5px;
+  margin: auto 0;
+  font-weight: normal;
+}
+
+#flight-icon {
+  margin: 5px 10px;
+  padding: 5px 0;
+}
+
+#hotel-icon {
+  margin: 5px 10px;
+  padding: 5px 0;
+}
+
+#rental-icon {
+  margin: 5px 10px;
+  padding: 5px 0;
+}
+
+#flight-field {
+  display: flex;
+  background: red;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#hotel-field {
+  display: flex;
+  background: black;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#rental-field {
+  display: flex;
+  background: black;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+#select-field {
+  height: auto;
+  width: 80%;
+  min-width: 600px;
+  background: white;
+}
+
+#background {
+  width: 75%;
+  height: 75%;
+}
+
+#travel-title {
+  height: auto;
+  width: 100%;
+  font-size: 32px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 25px 15px 10px 15px;
+}
+
+.label {
+  width: 45%;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 15px 5px 15px;
+  margin: 0 auto 0 0;
+}
+
+#search-box {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+}
+
+#from, #to {
+  width: 48%;
+  padding: 10px;
+  margin: 0 auto 0 10px;
+  font-size: 18px;
+}
+
+#button-search {
+  margin: 20px 15px 40px 15px;
+  padding: 10px;
+  font-size: 18px;
+  background: grey;
+  color: #fff;
+  border: 1px solid #000;
+  font-family: 'Segoe UI', Tahoma, sans-serif
+}
