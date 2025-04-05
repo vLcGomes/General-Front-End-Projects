@@ -250,6 +250,7 @@ a {
 #email-case {
   background: rgb(58, 58, 58);
   height: auto;
+  color: white;
 }
 
 #email-field {
@@ -270,4 +271,47 @@ a {
   background: red;
   color: white;
   font-size: 1.1rem;
+}
+
+.contact {
+  display: flex;
+  padding: 5px 0;
+}
+
+.contact p {
+  padding: 0 10px;
+}
+
+footer input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+footer button {
+  padding: 10px;
+  background: black;
+  color: white;
+  margin-bottom: 20px 
+}
+
+footer .find {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+  font-weight: normal;
+}
+
+#last {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+}
+
+.medias {
+  display: block;
+  margin: 0 auto;
+  width: max-content;
+  padding: 20px 0
 }
