@@ -14,4 +14,15 @@
   @media(max-width: 462px)
     @content
     
-  
+@mixin bg-img($img)
+  background-image: url('../imgs/#{$img}')
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: center
+  filter: grayscale(100%)
+  transition: .6s
+
+  &:hover
+    background-size: 110%
+    filter: grayscale(0%)
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/#{$img}')
