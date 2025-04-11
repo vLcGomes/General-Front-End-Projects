@@ -156,7 +156,7 @@ a {
 #from, #to {
   width: 48%;
   padding: 10px;
-  margin: 0 auto 0 15px;
+  margin: 0 0.2% 0 15px;
   font-size: 18px;
 }
 
@@ -222,7 +222,7 @@ a {
 
 #norway, #austria {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin-right: 5px;
   background: rgb(255, 243, 243)
 }
