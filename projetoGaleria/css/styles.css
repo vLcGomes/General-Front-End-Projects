@@ -215,4 +215,13 @@ body ul {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/refeicoes.jpg");
 }
 
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+footer span {
+  font-weight: bold;
+  color: #20C997;
+}
+
 /*# sourceMappingURL=styles.css.map */
