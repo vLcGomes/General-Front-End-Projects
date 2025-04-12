@@ -8,16 +8,19 @@
 body
   font-family: "Poppins", Arial;
 
+  a
+    text-decoration: none
+
 li
   list-style: none
   
 header
-  position: absolute
+  z-index: 10
+  position: fixed
   width: 100%
   border-bottom: 1px solid #d3cfcf2f
 
   a
-    text-decoration: none 
     color: #fff
 
     // TODO 
@@ -63,9 +66,15 @@ header
       &:hover
         color: rgba(255, 255, 255, 0.5)
 
+      // &::before
+      //   background: blue
+      //   width: 10px
+      //   height: 10px
+      //   border-radius: 50%
+
 #presentation
   height: 100vh
-  width: 100vw
+  width: 100%
   @include mixins.bg-img('escritorio.png')
   @include mixins.flex-center
   
@@ -101,7 +110,6 @@ header
     &#get-started-button
       border: 2px solid #1121fc
       background-color: #1e2dfc;
-      // border-color: #1121fc;
 
       &:hover
         background-color: #0615e9
@@ -113,3 +121,38 @@ header
       &:hover
         background: #fff
         color: #000
+
+#your-way
+  padding: 7.5rem 0
+  border-bottom: 1px solid #6e6e6e36
+
+  .your-way-head
+
+    p:nth-child(2)
+      font-size: 1.1rem
+
+  .your-way-content
+    @include mixins.content-center
+    padding: 0 1rem
+  
+  .row-item
+    @include mixins.flex-center
+    flex-direction: column
+    width: 250px
+
+    span
+      font-weight: 500
+      padding: 0.5rem
+
+    p
+      line-height: 1.7rem    
+
+    i
+      color: blue
+      font-size: 3rem      
+
+      &:hover
+        position: relative
+        top: -5px
+        
+    

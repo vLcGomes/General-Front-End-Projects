@@ -7,18 +7,21 @@
 body {
   font-family: "Poppins", Arial;
 }
+body a {
+  text-decoration: none;
+}
 
 li {
   list-style: none;
 }
 
 header {
-  position: absolute;
+  z-index: 10;
+  position: fixed;
   width: 100%;
   border-bottom: 1px solid rgba(211, 207, 207, 0.1843137255);
 }
 header a {
-  text-decoration: none;
   color: #fff;
 }
 header #logo li {
@@ -65,8 +68,8 @@ header #menu-icons i:hover {
 
 #presentation {
   height: 100vh;
-  width: 100vw;
-  background-size: cover;
+  width: 100%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/escritorio.png");
@@ -117,6 +120,42 @@ header #menu-icons i:hover {
 #presentation button#learn-more-button:hover {
   background: #fff;
   color: #000;
+}
+
+#your-way {
+  padding: 7.5rem 0;
+  border-bottom: 1px solid rgba(110, 110, 110, 0.2117647059);
+}
+#your-way .your-way-head p:nth-child(2) {
+  font-size: 1.1rem;
+}
+#your-way .your-way-content {
+  margin: 0 auto;
+  padding: 1.5rem 0;
+  max-width: 1110px;
+  padding: 0 1rem;
+}
+#your-way .row-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 250px;
+}
+#your-way .row-item span {
+  font-weight: 500;
+  padding: 0.5rem;
+}
+#your-way .row-item p {
+  line-height: 1.7rem;
+}
+#your-way .row-item i {
+  color: blue;
+  font-size: 3rem;
+}
+#your-way .row-item i:hover {
+  position: relative;
+  top: -5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
