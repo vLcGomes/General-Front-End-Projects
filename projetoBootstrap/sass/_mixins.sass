@@ -6,4 +6,10 @@
 @mixin content-center
   margin: 0 auto
   padding: 1.5rem 0
-  max-width: 1110
+  max-width: 1110px
+
+@mixin bg-img($img)
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../imgs/#{$img}')
