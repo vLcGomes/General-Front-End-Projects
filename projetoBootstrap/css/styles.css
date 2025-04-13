@@ -26,8 +26,8 @@ header a {
 }
 header #logo li {
   margin: 0 auto;
-  padding: 1.5rem 0;
   max-width: 1110px;
+  padding: 1.5rem 0;
   margin: 0 1rem;
   font-weight: bold;
   font-size: 1.1rem;
@@ -41,8 +41,8 @@ header #menu {
 }
 header #menu li {
   margin: 0 auto;
-  padding: 1.5rem 0;
   max-width: 1110px;
+  padding: 1.5rem 0;
   font-weight: 600;
 }
 header #menu a {
@@ -124,14 +124,13 @@ header #menu-icons i:hover {
 
 #your-way {
   padding: 7.5rem 0;
-  border-bottom: 1px solid rgba(110, 110, 110, 0.2117647059);
+  border-bottom: 1px solid rgba(110, 110, 110, 0.1098039216);
 }
 #your-way .your-way-head p:nth-child(2) {
   font-size: 1.1rem;
 }
 #your-way .your-way-content {
   margin: 0 auto;
-  padding: 1.5rem 0;
   max-width: 1110px;
   padding: 0 1rem;
 }
@@ -156,6 +155,10 @@ header #menu-icons i:hover {
 #your-way .row-item i:hover {
   position: relative;
   top: -5px;
+}
+
+#digital-design {
+  padding: 7.5rem 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
