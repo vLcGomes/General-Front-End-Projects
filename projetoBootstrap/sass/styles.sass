@@ -161,7 +161,6 @@ header
   padding: 3rem 0
   @include mixins.flex-center
   
-
   a
     padding: 10px
     color: #000
@@ -185,12 +184,15 @@ header
     margin: 1.5rem auto
     width: 540px
     
+  .static-block
+    max-height: 100%
+    overflow: hidden
 
   .line-item
     max-width: 100%
     max-height: 500px
     overflow: hidden
-    transition: transform 1s ease-in-out
+    transition: transform 0.5s ease-in-out
 
     div
       padding: 1rem 0
@@ -203,7 +205,11 @@ header
       div
         opacity: 1
         transform: translateY(0)
-        transition-delay: 0.7s
+        transition-delay: 0.3s
         
     img
       width: 100%
+      overflow: hidden
+  
+  a
+    color: #000
