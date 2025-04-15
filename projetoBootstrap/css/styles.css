@@ -181,6 +181,7 @@ header #menu-icons i:hover {
   grid-template-rows: 1fr 1fr;
   gap: 0.75rem;
   max-width: 100vw;
+  overflow: hidden;
 }
 #digital-design-card p {
   margin: 1.5rem auto;
@@ -188,6 +189,22 @@ header #menu-icons i:hover {
 }
 #digital-design-card .line-item {
   max-width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  transition: transform 1s ease-in-out;
+}
+#digital-design-card .line-item div {
+  padding: 1rem 0;
+  opacity: 0;
+}
+#digital-design-card .line-item:hover {
+  overflow: visible;
+  transform: translateY(-70px);
+}
+#digital-design-card .line-item:hover div {
+  opacity: 1;
+  transform: translateY(0);
+  transition-delay: 0.7s;
 }
 #digital-design-card .line-item img {
   width: 100%;
