@@ -301,4 +301,16 @@ header #menu-icons i:hover {
   padding-right: 1.5rem;
 }
 
+#creative-people {
+  padding: 7.5rem 0;
+}
+#creative-people p {
+  width: 540px;
+  margin: 0 auto;
+  color: #5f5f5f;
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  font-size: 18px;
+}
+
 /*# sourceMappingURL=styles.css.map */
