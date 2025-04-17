@@ -345,9 +345,10 @@ header #menu-icons i:hover {
 }
 
 #plan-options {
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
   max-width: 1140px;
+  margin-bottom: 50px;
 }
 #plan-options .card-plan {
   width: 33.333333%;
@@ -380,6 +381,45 @@ header #menu-icons i:hover {
 }
 #plan-options .card-plan button:hover {
   background-color: #000dca;
+}
+
+footer {
+  background-color: #252525;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+}
+footer #footer-content {
+  height: 400px;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+footer .footer-icon {
+  color: #fff;
+  font-size: 15px;
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+footer #middle-p {
+  padding: 15px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.2823529412);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2823529412);
+}
+footer #last-item {
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.2823529412);
+}
+footer #last-item span {
+  display: block;
+  font-size: 15px;
+  color: #696969;
+  padding: 37px 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
