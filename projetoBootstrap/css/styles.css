@@ -20,9 +20,10 @@ header {
   position: fixed;
   width: 100%;
   border-bottom: 1px solid rgba(211, 207, 207, 0.1843137255);
+  background: #fff;
 }
 header a {
-  color: #fff;
+  color: #000;
 }
 header #logo li {
   margin: 0 auto;

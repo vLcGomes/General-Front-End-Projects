@@ -19,9 +19,11 @@ header
   position: fixed
   width: 100%
   border-bottom: 1px solid #d3cfcf2f
+  background: #fff
 
   a
-    color: #fff
+    color: #000
+    
 
     // TODO 
       // Quando a página descer tem que alterar o a color e size 
@@ -311,10 +313,15 @@ header
     grid-template-columns: repeat(3, 1fr)
     grid-template-rows: 1fr 1fr
     @include mixins.content-center
+    
 
     .crew
+      // z-index: 1
+      // background-image: linear-gradient(rgba(0, 0, 0, 0.5))
+      // background-size: 100%
 
       img
+        // z-index: 0
         height: 100%
         width: 100%
 
