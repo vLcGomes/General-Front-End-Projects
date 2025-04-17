@@ -303,6 +303,10 @@ header #menu-icons i:hover {
 
 #creative-people {
   padding: 7.5rem 0;
+  text-align: center;
+}
+#creative-people h1 {
+  font-size: 2.5rem;
 }
 #creative-people p {
   width: 540px;
@@ -311,6 +315,32 @@ header #menu-icons i:hover {
   padding-top: 1rem;
   padding-bottom: 3rem;
   font-size: 18px;
+}
+#creative-people #crew-grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+#creative-people #crew-grid .crew img {
+  height: 100%;
+  width: 100%;
+}
+#creative-people #about-us-btn {
+  padding: 1.1875rem 2.25rem;
+  border-radius: 1.875rem;
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.075rem;
+  background: none;
+  transition: 0.4s;
+  border: 2px solid #1121fc;
+  color: #1e2dfc;
+}
+#creative-people #about-us-btn:hover {
+  color: #fff;
+  background-color: #1e2dfc;
 }
 
 /*# sourceMappingURL=styles.css.map */
