@@ -321,9 +321,9 @@ header #menu-icons i:hover {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
   margin: 0 auto;
-  max-width: 1140px;
+  width: 1140px;
 }
-#creative-people #crew-grid .crew img {
+#creative-people #crew-grid img {
   height: 100%;
   width: 100%;
 }
@@ -342,6 +342,41 @@ header #menu-icons i:hover {
 #creative-people #about-us-btn:hover {
   color: #fff;
   background-color: #1e2dfc;
+}
+
+#plan-options {
+  height: 100vh;
+  margin: 0 auto;
+  max-width: 1140px;
+}
+#plan-options .card-plan {
+  width: 33.333333%;
+  background-color: rgba(230, 226, 226, 0.5411764706);
+  border-radius: 10px;
+}
+#plan-options .card-plan:hover {
+  width: 35%;
+  overflow: visible;
+}
+#plan-options .card-plan h1 {
+  font-size: 4rem;
+}
+#plan-options .card-plan button {
+  padding: 19px 36px;
+  border-radius: 1.875rem;
+  margin: 20px auto;
+  width: 50%;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.075rem;
+  background: none;
+  transition: 0.4s;
+  border: 2px solid #1121fc;
+  color: #fff;
+  background-color: #1e2dfc;
+}
+#plan-options .card-plan button:hover {
+  background-color: #000dca;
 }
 
 /*# sourceMappingURL=styles.css.map */

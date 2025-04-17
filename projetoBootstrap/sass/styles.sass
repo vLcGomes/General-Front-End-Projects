@@ -312,18 +312,12 @@ header
   #crew-grid
     grid-template-columns: repeat(3, 1fr)
     grid-template-rows: 1fr 1fr
-    @include mixins.content-center
-    
+    margin: 0 auto
+    width: 1140px
 
-    .crew
-      // z-index: 1
-      // background-image: linear-gradient(rgba(0, 0, 0, 0.5))
-      // background-size: 100%
-
-      img
-        // z-index: 0
-        height: 100%
-        width: 100%
+    img
+      height: 100%
+      width: 100%
 
   #about-us-btn
     padding: 1.1875rem 2.25rem;
@@ -341,3 +335,36 @@ header
     &:hover
       color: #fff
       background-color: #1e2dfc;
+
+#plan-options
+  height: 100vh
+  @include mixins.content-center
+
+  .card-plan
+      width: 33.333333%
+      background-color: #e6e2e28a
+      border-radius: 10px
+
+      &:hover
+        width: 35%
+        overflow: visible
+
+      h1
+        font-size: 4rem
+
+      button
+        padding: 19px 36px;
+        border-radius: 1.875rem;
+        margin: 20px auto
+        width: 50%
+        font-weight: 600
+        font-size: 0.75rem
+        letter-spacing: 0.075rem
+        background: none
+        transition: 0.4s
+        border: 2px solid #1121fc;
+        color: #fff;
+        background-color: #1e2dfc
+
+        &:hover
+          background-color: #000dca
