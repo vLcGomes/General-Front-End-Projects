@@ -3,20 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
   <title>Avanti</title>
 </head>
 <body>
-  <main>
-    <header>
-      <img src="Avanti logo" alt="">
-      <div>
-        <input type="search">
-        <i></i>
-        <i></i>
-        <p>Olá, <br>Nome cliente!</p>
-        <i></i>
+  <main class="d-flex justify-content-center flex-column w-100">
+    <div id="promotion">Ganhe <Span id='discount-value'>R$10,00</Span> de desconto no seu primeiro pedido. Utilize o cupom DESCONTO10</div>
+    <header id="full-header" class="d-flex flex-column my-3 align-items-center">
+      <div id='header-content' class="d-flex flex-row align-items-center justify-content-start mb-2">
+        <img id='logo-header-img' src="./imgs/logo-avanti.png" alt="Avanti logo" class="aling-self-start">
+        <div id='search-cart-header' class="d-flex flex-row align-items-center justify-content-between">
+          <div id="search-box" class="d-flex justify-content-between">
+            <input id='search-field' type="search" class="h-100 mx-2" placeholder="Digite aqui o que você procura">
+            <i id='search-header-icon' class="fa-solid fa-magnifying-glass my-auto mx-3"></i>
+          </div>
+          <div id='user-cart-content' class="d-flex align-items-center">
+            <i id='user-header-icon' class="fa-solid fa-user my-auto mx-1"></i>
+            <p id='username-header' class="mx-2 mb-0">Olá, <br>Nome cliente!</p>
+            <i id='cart-header-icon' class="fa-solid fa-cart-shopping mx-3"></i>
+          </div>
+        </div>
+      </div>
+      <div id='header-items' class="d-flex justify-content-between mt-2">
+        <ul class="d-flex flex-row justify-content-between w-100 p-0">
+          <div id="category-item" class="d-flex h-100 align-items-center">
+            <i class="fa-solid fa-bars mx-1"></i>
+            <li><a class='link mx-1' href="#">Todas as Categorias</a></li>
+          </div>
+
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+          <li><a class='link' href="#">Departamento</a></li>
+        </ul>
       </div>
     </header>
   </main>
+  <script src="https://kit.fontawesome.com/813d899eeb.js" crossorigin="anonymous"></script>
 </body>
 </html>
